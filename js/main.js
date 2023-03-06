@@ -30,7 +30,7 @@ let isTimeOver = false
 // 5. Handle replay click
 
 function handleOnChange(second) {
-  const textContent = `0${second}`.slice(-2)
+  const textContent = `0${second}s`.slice(-3)
   setTimerText(textContent)
 }
 
